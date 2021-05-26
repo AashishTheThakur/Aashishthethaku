@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './App.css';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar';
 import Header from "./components/Header";
-import particles from "react-particles-js";
 import Contact from "./components/Contact";
-import emailjs from 'emailjs-com';
-import Dcon from "./components/Dcon";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";

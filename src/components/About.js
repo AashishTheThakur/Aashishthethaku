@@ -1,5 +1,5 @@
 import React from 'react'
-import Typed from "react-typed";
+import pic from "../pic.png";
 const About = () => {
     return (
       
@@ -10,7 +10,7 @@ const About = () => {
         
         <div class="col-sm-6" className="left">
         <div class="card-body">
-              <img src="pic.png" alt="..." class="img-thumbnail" className="img"/>
+              <img src={pic} alt="..." class="img-thumbnail" className="img"/>
               </div>
         </div>
         <div class="col-sm-6">
